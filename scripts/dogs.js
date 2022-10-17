@@ -10,10 +10,10 @@ function myFunction(){
 function createList(data){
     const que = Object.keys(data.message);
     const mainDiv = document.createElement('div') //main div of the element
-    const listDiv = document.createElement('div');
-    const mainUl = document.createElement('ul');
-    let imgDiv = document.createElement('div')
-    imgDiv.setAttribute('style','padding:50px')
+    const listDiv = document.createElement('div');// div for displaying the list 
+    const mainUl = document.createElement('ul');//ul tag for displayin the list
+    let imgDiv = document.createElement('div')//image tag 
+    imgDiv.setAttribute('style','padding:50px')//attributes of the image tag
     for(let i = 0; i<que.length; i++){
         const mainLi = document.createElement('div');
 
