@@ -13,7 +13,7 @@ function createList(data){
     const listDiv = document.createElement('div');
     const mainUl = document.createElement('ul');
     let imgDiv = document.createElement('div')
-    imgDiv.setAttribute('style','padding:50px; width:500px; height:500px; object-fit:cover')
+    imgDiv.setAttribute('style','padding:50px')
     for(let i = 0; i<que.length; i++){
         const mainLi = document.createElement('div');
 
