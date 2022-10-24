@@ -13,13 +13,13 @@ function createList(data){
     const listDiv = document.createElement('div');
     const mainUl = document.createElement('ul');
     let imgDiv = document.createElement('div')
-    imgDiv.setAttribute('style','padding:50px')
+    imgDiv.setAttribute('style','padding:50px; width:500px; height:500px; object-fit:cover')
     for(let i = 0; i<que.length; i++){
         const mainLi = document.createElement('div');
 
         //proprties of the div element
         mainLi.setAttribute('style', 'width:300px; height:50px');
-        const url = "https://dog.ceo/api/breed/" + que[i] + "/images/random"
+        const url = "https://dog.ceo/api/breed/"+que[i]+"/images/random"
         const btn = document.createElement('button');
         btn.setAttribute('style', 'width:300px; height:50px; font-size:20px');//properties of the bread button element
         btn.innerHTML =  que[i];
